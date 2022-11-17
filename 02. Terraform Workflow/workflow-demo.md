@@ -38,10 +38,10 @@ terraform apply
 __Destroy Infrastructure__
 
 
-terraform destroy
+__terraform destroy__
 
 
-__Remove files as well__ 
+Remove files as well
 
 
 rm -rf .terraform*
