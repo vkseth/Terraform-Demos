@@ -1,16 +1,20 @@
-Terraform Workflow
+# Terraform Workflow
+======================================
 
-Terraform work in 5 stages 
+# Terraform work in 5 stages 
 
-init   validate    plan    apply    destory 
+- init   
+- validate    
+- plan    
+- apply    
+- destory 
 
 
-Terraform init - 
+# Terraform init - 
 
-first command which we need to use 
-It is used to initialize a working directory containing terraform config files 
-
-Download the providers like terraform module, aws provider etc
+- first command to use with Terraform
+- It is used to initialize a working directory containing terraform config files 
+- Download the providers like terraform module, aws provider etc
 
 
 Terraform validate - 
