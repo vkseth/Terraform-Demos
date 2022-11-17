@@ -25,25 +25,25 @@ resource "aws_instance" "ec2demo" {                     # BLOCK
 
 __Terraform Block Types__
 
-- also called as Top level block 
-- can have block inside the block 
+>also called as Top level block 
+>can have block inside the block 
 
-terraform block
-provider block
-resource block
-variable block
-locals block
-data block
-module block
-output block
-provisioner block
+- terraform block
+- provider block
+- resource block
+- variable block
+- locals block
+- data block
+- module block
+- output block
+- provisioner block
 
 
 
 __BLOCK LABEL__
 
-  Can have multiple inside the BLOCK TYPE
-  Service name and logical name of service 
+>Can have multiple inside the BLOCK TYPE
+>Service name and logical name of service 
 
 
 __IDENTIFIER__
