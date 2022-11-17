@@ -12,7 +12,6 @@
 
 ```
 
-
 # AWS Example
 ```
 
@@ -24,33 +23,37 @@ resource "aws_instance" "ec2demo" {                     # BLOCK
 
 ```
 
+__Terraform Block Types__
 
-/*
-BLOCK TYPE -
+  also called as Top level block 
+  can have block inside the block 
 
-other in block type like provider, local, output etc
-also called as Top level block 
-can have block inside the block 
-*/
-
-
-/*
-BLOCK LABEL - 
-can have multiple inside the BLOCK TYPE
-Service name and logical name of service 
-
-*/
-
-/*
-IDENTIFIER - 
-left side value or called as argument of the respective resource
-*/
+terraform block
+provider block
+resource block
+variable block
+locals block
+data block
+module block
+output block
+provisioner block
 
 
-/*
-EXPRESSION - 
-right side value or called as value for the respective argument
-*/
+
+__BLOCK LABEL__
+
+  Can have multiple inside the BLOCK TYPE
+  Service name and logical name of service 
+
+
+__IDENTIFIER__
+
+  left side value or called as argument of the respective resource
+
+
+__EXPRESSION__
+
+  right side value or called as value for the respective argument
 
 
 
