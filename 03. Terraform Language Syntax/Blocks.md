@@ -1,9 +1,11 @@
 
-# Template
-# <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
-#   # Block body
-#   <IDENTIFIER> = <EXPRESSION> # Argument
-# }
+# Block Template
+
+
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
+   # Block body
+   <IDENTIFIER> = <EXPRESSION> # Argument
+ }
 
 
 # AWS Example
