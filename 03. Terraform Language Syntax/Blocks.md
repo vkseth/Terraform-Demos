@@ -48,12 +48,12 @@ __BLOCK LABEL__
 
 __IDENTIFIER__
 
-  left side value or called as argument of the respective resource
+>left side value or called as argument of the respective resource
 
 
 __EXPRESSION__
 
-  right side value or called as value for the respective argument
+>right side value or called as value for the respective argument
 
 
 
