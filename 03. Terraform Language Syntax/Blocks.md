@@ -25,8 +25,8 @@ resource "aws_instance" "ec2demo" {                     # BLOCK
 
 __Terraform Block Types__
 
-  also called as Top level block 
-  can have block inside the block 
+- also called as Top level block 
+- can have block inside the block 
 
 terraform block
 provider block
