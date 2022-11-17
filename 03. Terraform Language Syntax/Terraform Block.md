@@ -6,7 +6,7 @@
 
 Here is an example of a terraform block:
 
-
+```
 
 terraform {
   required_providers {
@@ -17,3 +17,5 @@ terraform {
   }
   required_version = ">= 1.0.1"
 }
+
+```
