@@ -17,3 +17,9 @@ __can also be called as__
 
 
 ![Screenshot](Screenshot.png)    ![Screenshot1](Screenshot2.png)
+
+
+__Terraform block__
+
+
+![Screenshot3](Screenshot3.png)
