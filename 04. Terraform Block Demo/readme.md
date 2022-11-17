@@ -2,9 +2,9 @@
 
 __can also be called as__ 
 
-- Terraform block 
-- Terraform setting block 
-- Terraform configration block 
+    Terraform block 
+    Terraform setting block 
+    Terraform configration block 
 
 
 
@@ -16,4 +16,4 @@ __can also be called as__
 - Terraform block is often put into a separate file called terraform.tf as a way to separate settings into their own file.
 
 
-![Screenshot](screenshot.png)
+![Screenshot](04. Terraform Block Demo/Screenshot.png)
