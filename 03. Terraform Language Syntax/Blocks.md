@@ -4,10 +4,10 @@
 
 # Template
 
-<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
+\*<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
   # Block body
   <IDENTIFIER> = <EXPRESSION> # Argument
-}
+}\*
 
 # AWS Example
 
