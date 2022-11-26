@@ -1,22 +1,24 @@
 # What is Terraform state?
 
 
-- Every time you run Terraform, it records information about what infrastructure it created in a Terraform state file in the same working directory 
+Every time you run Terraform, it records information about what infrastructure it created in a Terraform state file in the same working directory 
 
 
 # Work perform by state file?
 
-- Every time you run Terraform, it can fetch the latest status of resource from AWS and compare that to what’s in your Terraform configurations to determine what changes need to be applied.
+Every time you run Terraform, it can fetch the latest status of resource from AWS and compare that to what’s in your Terraform configurations to determine what changes need to be applied.
 
 
-- In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world.
+In other words, the output of the plan command is a diff between the code on your computer and the infrastructure deployed in the real world.
 
-** Never Ever edit the Terraform state files by hand or write code that reads them directly.
+__Never Ever edit the Terraform state files by hand or write code that reads them directly.__
 
-use terraform state commands 
+always use terraform state command
 
+'''
 terraform state
 terraform state show 
+'''
 
 # Remove resource from state file 
 
