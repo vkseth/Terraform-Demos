@@ -41,7 +41,7 @@ Storing terraform state locally recommended when working for a personal project,
 But if you want to use Terraform as a team on a real product, storing terraform state locally not recommended.
 
 
-##Working in Team require##
+## Working in Team require ##
 
 __Shared location__
 
