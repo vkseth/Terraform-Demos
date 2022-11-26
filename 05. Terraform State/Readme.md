@@ -37,11 +37,13 @@ terraform state rm
 # Storging terraform.tfstate locally vs Remotely 
 
 Storing terraform state locally recommended when working for a personal project, 
+
 But if you want to use Terraform as a team on a real product, storing terraform state locally not recommended.
 
 
+__Working in Team require__
 
-- To be able to use Terraform to update your infrastructure, each of your team members needs access to the same Terraform state files. 
+To be able to use Terraform to update your infrastructure, each of your team members needs access to the same Terraform state files. 
 That means you need to store those files in a shared location.
 
 - Locking state files
