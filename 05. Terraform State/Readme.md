@@ -56,3 +56,18 @@ __Isolating state files__
 
 for different env. 
 
+
+## Storing terraform state in version control  ## 
+
+Storing Terraform state in version control is a bad idea for the following reasons:
+
+- Manual error
+- Locking
+- Secrets
+
+
+Instead of using version control, the best way to manage shared storage for state files is to use Terraform’s built-in support for remote backends
+
+Remote backends solved all the above issue 
+
+Follow Example-2
