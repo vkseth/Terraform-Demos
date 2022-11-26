@@ -15,12 +15,12 @@ __Never Ever edit the Terraform state files by hand or write code that reads the
 
 always use terraform state command
 
-'''
+```
 
 terraform state
 terraform state show 
 
-'''
+```
 
 # Remove resource from state file 
 
