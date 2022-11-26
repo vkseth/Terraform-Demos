@@ -24,20 +24,20 @@ terraform state show
 
 # Remove resource from state file 
 
-- terraform state
+```
 
-- terraform state list 
-
-- terraform state rm 
+terraform state
+terraform state list 
+terraform state rm 
 
 #folow example-1
 
+```
 
 # Storging terraform.tfstate locally vs Remotely 
 
-Terraform for a personal project, storing terraform state locally recommended.
-
-But if you want to use Terraform as a team on a real product storing terraform state locally not recommended.
+Storing terraform state locally recommended when working for a personal project, 
+But if you want to use Terraform as a team on a real product, storing terraform state locally not recommended.
 
 
 
