@@ -43,12 +43,16 @@ But if you want to use Terraform as a team on a real product, storing terraform 
 
 __Working in Team require__
 
-To be able to use Terraform to update your infrastructure, each of your team members needs access to the same Terraform state files. 
-That means you need to store those files in a shared location.
+__Shared location__
 
-- Locking state files
+able to access the same Terraform state files. 
+That means you need to store state files in a shared location.
+
+__Locking state files__
+
 If all the team member use the same terraform state file it need some mechanisum to lock multiple changes 
 
-- Isolating state files 
+__Isolating state files__
+
 for different env. 
 
