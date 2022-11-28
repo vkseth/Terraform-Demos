@@ -1,5 +1,5 @@
 data "aws_s3_bucket" "selected" {
-  bucket = "automation-vcky"
+  bucket = "bucketnamehere"
 }
 
 output "bucket" {
