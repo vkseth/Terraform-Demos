@@ -16,5 +16,12 @@ variable "user_names" {
 
 output "username" {
   value =  values(aws_iam_user.example)[*].arn
+  description = "The ARNs for all users"
 
 }
+
+output "first_arn" {
+  value       = aws_iam_user.example[0].arn
+  description = "The ARN for the first user"
+}
+

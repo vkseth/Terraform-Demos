@@ -1,6 +1,8 @@
+
 data "aws_availability_zones" "zone" {
   filter {
-    name   = "opt-in-status"
+    name = "opt-in-status"
+    #description = "get all the az from region"
     values = ["opt-in-not-required"]
   }
 }
