@@ -10,3 +10,6 @@ output "instance" {
   value = data.aws_instance.foo.key_name
 }
 
+# output "instance" {
+#   value = data.aws_instance.foo
+# }
