@@ -12,3 +12,10 @@ variable "instance_type_map" {
     "prod" = "t3.large"
   }
 }
+
+
+variable "instance_type_list" {
+  description = "EC2 Instnace Type list"
+  type        = list(any)
+  default     = ["t2.micro", "m4.xlarge", "t3.nano"]
+}
