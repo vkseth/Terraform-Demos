@@ -9,3 +9,9 @@ variable "ec2_ami_id" {
   type        = string
   default     = "ami-074dc0a6f6c764218" # Amazon2 Linux AMI ID
 }
+
+variable "ec2_instance_count" {
+  description = "EC2 Instance Count"
+  type        = number
+  default     = 1
+}
