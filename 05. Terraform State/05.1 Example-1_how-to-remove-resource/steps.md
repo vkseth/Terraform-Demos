@@ -1,4 +1,4 @@
-# Commands 
+__Commands__
 
 Terraform init  
 Terraform plan 
@@ -31,14 +31,11 @@ resource "aws_security_group" "terraform-forgot" {
 
 Now in above file if I need to update the resource name 
 resource "aws_security_group" "terraform-forgot"   to   resource "aws_security_group" "terraform-forgot1"
-
 Here terraform will destroy current resource and create new resource 
-
 with help of terraform state mv we can avoid recreating of resource 
-
 terraform state mv aws_security_group.terraform-forgot aws_security_group.terraform-forgot1
 
-verify it with 
+__verify it with__
 
 terraform state list 
 
