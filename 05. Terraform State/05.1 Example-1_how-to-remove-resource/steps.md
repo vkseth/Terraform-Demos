@@ -1,8 +1,10 @@
 __Commands__
 
-Terraform init  
-Terraform plan 
-Terraform apply --auto-approve
+terraform init  
+terraform validate
+terraform fmt
+terraform plan 
+terraform apply --auto-approve
 
 
 __To list all the resouces in the state file__ 
